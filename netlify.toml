@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/inject-socket-url.cjs && npm run build"
+  command = "npm run build && node scripts/inject-socket-url.cjs"
   publish = "dist"
   functions = "netlify/functions"
 
